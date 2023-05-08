@@ -24,3 +24,6 @@ def read_data(file_path):
     test_nodes = pickle.load(open(file_path + ".test.pkl", "rb"))
     
     return patients, adj_list, rare_diseases, labels, node_map, train_nodes, test_nodes
+
+def get_latency(start_time, end_time):
+    return end_time - start_time

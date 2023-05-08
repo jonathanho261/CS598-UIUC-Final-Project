@@ -5,3 +5,6 @@ To run GraphSage model
 To run GIN model
 `python3 -m src.graph_sage`
 
+To run Decision Tree model
+`python3 -m src.decision_tree`
+
